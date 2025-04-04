@@ -16,12 +16,12 @@ const config: Config = {
   url: "https://pangpond.github.io",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: "/",
+  baseUrl: "/remarkable3/",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "pangpond", // Usually your GitHub org/user name.
-  projectName: "pangpond.github.io", // Usually your repo name.
+  projectName: "remarkable3", // Usually your repo name.
   deploymentBranch: "gh-pages",
   trailingSlash: false,
 

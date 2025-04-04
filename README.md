@@ -29,7 +29,10 @@ This command generates static content into the `build` directory and can be serv
 Using SSH:
 
 ```
-$ USE_SSH=true yarn deploy
+$ GIT_USER=pangpond \
+  CURRENT_BRANCH=main \
+  USE_SSH=true \
+  npm run deploy
 ```
 
 Not using SSH:
