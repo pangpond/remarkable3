@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkremarkable=self.webpackChunkremarkable||[]).push([[1055],{51:e=>{e.exports=JSON.parse('{"tags":[{"label":"\u0e40\u0e14\u0e47\u0e01","permalink":"/remarkable3/child/tags/\u0e40\u0e14\u0e47\u0e01","count":1}]}')}}]);

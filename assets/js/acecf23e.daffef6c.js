@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkremarkable=self.webpackChunkremarkable||[]).push([[1903],{1912:e=>{e.exports=JSON.parse('{"blogBasePath":"/remarkable3/blog","blogTitle":"Blog","authorsListPath":"/remarkable3/blog/authors"}')}}]);

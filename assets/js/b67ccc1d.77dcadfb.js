@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkremarkable=self.webpackChunkremarkable||[]).push([[7924],{1145:e=>{e.exports=JSON.parse('{"name":"docusaurus-plugin-content-blog","id":"child"}')}}]);
