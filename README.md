@@ -2,6 +2,8 @@
 
 This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
 
+live at https://pangpond.github.io/remarkable3/
+
 ### Installation
 
 ```
