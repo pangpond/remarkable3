@@ -1,4 +1,10 @@
-self-improvement:
-  label: Self-Improvement
-  permalink: /self-improvement
-  description: Self-Improvement tag description
+game:
+  label: Game
+  permalink: /game
+  description: Game tag description
+
+nintendo:
+  label: Nintendo
+  permalink: /nintendo
+  description: Nintendo tag description
+

@@ -19,15 +19,6 @@ export default function Hero({ title }: { title: string }): ReactNode {
         ></div>
       </div>
       <div className="mx-auto max-w-4xl py-32 sm:py-48 lg:py-56">
-        <div className="hidden sm:mb-8 sm:flex sm:justify-center">
-          <div className="relative rounded-full px-3 py-1 text-sm/6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
-            Announcing our next round of funding.{" "}
-            <a href="#" className="font-semibold text-indigo-600">
-              <span className="absolute inset-0" aria-hidden="true"></span>
-              Read more <span aria-hidden="true">&rarr;</span>
-            </a>
-          </div>
-        </div>
         <Heading
           as="h1"
           className="mb-8 text-center text-4xl text-[clamp(2.4rem,_4vw,_4rem)] font-bold tracking-tighter text-system-marketing-primary sm:text-7xl"
@@ -45,9 +36,11 @@ export default function Hero({ title }: { title: string }): ReactNode {
           <div className="mt-10 flex items-center justify-center gap-x-6">
             <a
               href="#"
-              className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-indigo-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+              className="relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-lg font-medium text-pretty text-gray-900 rounded-lg group bg-gradient-to-br from-purple-500 to-pink-500 group-hover:from-purple-500 group-hover:to-pink-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 shadow-lg hover:shadow-purple-500/50 dark:shadow-lg dark:hover:shadow-purple-800/80 "
             >
-              Get started
+              <span className="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-transparent group-hover:dark:bg-transparent">
+                Get started
+              </span>
             </a>
             <a href="#" className="text-sm/6 font-semibold text-gray-900">
               Learn more <span aria-hidden="true">→</span>

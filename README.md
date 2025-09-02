@@ -4,6 +4,12 @@ This website is built using [Docusaurus](https://docusaurus.io/), a modern stati
 
 live at https://pangpond.github.io/remarkable3/
 
+### Prepare
+
+```
+$ nvm use 18
+```
+
 ### Installation
 
 ```
