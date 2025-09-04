@@ -217,7 +217,7 @@ const config: Config = {
       { highlight: "rust", language: "rust", logoClass: "rust" },
     ],
     mermaid: {
-      theme: { light: 'default', dark: 'dark' },
+      theme: { light: 'neutral', dark: 'dark' },
     },
   } satisfies Preset.ThemeConfig,
   themes: [
@@ -227,7 +227,7 @@ const config: Config = {
         indexPages: true,
         docsRouteBasePath: "/docs",
         hashed: true,
-        language: ["en"],
+        language: ["en", "th"],
         highlightSearchTermsOnTargetPage: false,
         searchResultContextMaxLength: 50,
         searchResultLimits: 8,
