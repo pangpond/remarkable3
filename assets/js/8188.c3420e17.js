@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkremarkable=self.webpackChunkremarkable||[]).push([[8188],{8188:(e,a,r)=>{r.d(a,{createPieServices:()=>k.f});var k=r(9786);r(8198)}}]);

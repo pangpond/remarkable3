@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkremarkable=self.webpackChunkremarkable||[]).push([[2068],{2068:(e,a,r)=>{r.d(a,{createInfoServices:()=>k.v});var k=r(1366);r(8198)}}]);

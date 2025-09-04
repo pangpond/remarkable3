@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkremarkable=self.webpackChunkremarkable||[]).push([[9277],{1185:e=>{e.exports=JSON.parse('{"tags":[{"label":"Self-Improvement","permalink":"/remarkable3/self/tags/self-improvement","description":"Self-Improvement tag description","count":2}]}')}}]);

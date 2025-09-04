@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkremarkable=self.webpackChunkremarkable||[]).push([[4957],{5187:e=>{e.exports=JSON.parse('{"tags":[{"label":"Game","permalink":"/remarkable3/blog/tags/game","description":"Game tag description","count":1},{"label":"Nintendo","permalink":"/remarkable3/blog/tags/nintendo","description":"Nintendo tag description","count":1}]}')}}]);

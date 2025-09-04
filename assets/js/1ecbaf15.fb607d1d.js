@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkremarkable=self.webpackChunkremarkable||[]).push([[4957],{5187:e=>{e.exports=JSON.parse('{"tags":[{"label":"rust","permalink":"/remarkable3/blog/tags/rust","count":1}]}')}}]);

@@ -33,6 +33,6 @@
             <name>Pangpond Bangna</name>
             <uri>https://github.com/pangpond</uri>
         </author>
-        <category label="เด็ก" term="เด็ก"/>
+        <category label="child" term="child"/>
     </entry>
 </feed>

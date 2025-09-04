@@ -1,0 +1,30 @@
+<svg width="48" height="32" viewBox="0 0 48 32" xmlns="http://www.w3.org/2000/svg">
+  <!-- Main GamePad -->
+  <rect x="4" y="8" width="40" height="20" rx="10" fill="#2B2B2B" stroke="#666" stroke-width="1"/>
+  
+  <!-- Screen -->
+  <rect x="12" y="12" width="24" height="12" rx="2" fill="#000" stroke="#666" stroke-width="1"/>
+  <rect x="13" y="13" width="22" height="10" rx="1" fill="#2B2B2B"/>
+  
+  <!-- Left analog stick -->
+  <circle cx="10" cy="16" r="2" fill="#666"/>
+  <circle cx="10" cy="16" r="1" fill="#333"/>
+  
+  <!-- Right analog stick -->
+  <circle cx="38" cy="16" r="2" fill="#666"/>
+  <circle cx="38" cy="16" r="1" fill="#333"/>
+  
+  <!-- D-pad -->
+  <rect x="8" y="21" width="4" height="1" rx="0.5" fill="#666"/>
+  <rect x="9" y="20" width="2" height="3" rx="1" fill="#666"/>
+  
+  <!-- Face buttons -->
+  <circle cx="36" cy="20" r="1" fill="#0066CC"/>
+  <circle cx="40" cy="20" r="1" fill="#FF4444"/>
+  <circle cx="38" cy="18" r="1" fill="#FFFF00"/>
+  <circle cx="38" cy="22" r="1" fill="#00CC00"/>
+  
+  <!-- Wii U console (small) -->
+  <rect x="20" y="4" width="8" height="4" rx="2" fill="#FFFFFF" stroke="#CCC" stroke-width="1"/>
+  <rect x="22" y="5" width="4" height="1" rx="0.5" fill="#0066CC"/>
+</svg>

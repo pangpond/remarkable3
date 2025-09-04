@@ -1,0 +1,19 @@
+<svg width="48" height="32" viewBox="0 0 48 32" xmlns="http://www.w3.org/2000/svg">
+  <!-- Main screen -->
+  <rect x="12" y="4" width="24" height="16" rx="2" fill="#2B2B2B" stroke="#666" stroke-width="1"/>
+  <rect x="14" y="6" width="20" height="12" rx="1" fill="#000"/>
+  
+  <!-- Left Joy-Con -->
+  <rect x="2" y="2" width="8" height="20" rx="4" fill="#0066CC" stroke="#004499" stroke-width="1"/>
+  <circle cx="6" cy="8" r="1.5" fill="#333"/>
+  <rect x="4" y="14" width="4" height="1" rx="0.5" fill="#333"/>
+  <rect x="4" y="16" width="4" height="1" rx="0.5" fill="#333"/>
+  
+  <!-- Right Joy-Con -->
+  <rect x="38" y="2" width="8" height="20" rx="4" fill="#FF6B6B" stroke="#FF4444" stroke-width="1"/>
+  <circle cx="42" cy="8" r="1.5" fill="#333"/>
+  <circle cx="40" cy="14" r="0.8" fill="#333"/>
+  <circle cx="42" cy="12" r="0.8" fill="#333"/>
+  <circle cx="44" cy="14" r="0.8" fill="#333"/>
+  <circle cx="42" cy="16" r="0.8" fill="#333"/>
+</svg>

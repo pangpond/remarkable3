@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkremarkable=self.webpackChunkremarkable||[]).push([[1055],{51:e=>{e.exports=JSON.parse('{"tags":[{"label":"child","permalink":"/remarkable3/child/tags/child","description":"child tag description","count":1}]}')}}]);
