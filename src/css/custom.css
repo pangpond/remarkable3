@@ -36,6 +36,17 @@
   .markdown .block ul{
     font-size: var(--text-base) !important;
   }
+
+  --ifm-h1-font-size: 2rem;
+  --ifm-h2-font-size: 1.75rem;
+  --ifm-h3-font-size: 1.5rem;
+  --ifm-h4-font-size: 1.25rem;
+  --ifm-h5-font-size: 1rem;
+  --ifm-h6-font-size: 0.875rem;
+
+  --ifm-color-content: var(--ifm-color-emphasis-800);
+
+  --docusaurus-details-summary-arrow-size: 0.5rem;
 }
 
 
@@ -152,4 +163,3 @@ kbd {
   padding: 0 2rem 0 2.25rem;
   width: 13.5rem;
 }
-

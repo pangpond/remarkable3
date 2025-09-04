@@ -34,6 +34,10 @@ const config: Config = {
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
 
+  markdown: {
+    mermaid: true,
+  },
+
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
@@ -212,6 +216,9 @@ const config: Config = {
       { highlight: "kotlin", language: "kotlin", logoClass: "kotlin" },
       { highlight: "rust", language: "rust", logoClass: "rust" },
     ],
+    mermaid: {
+      theme: { light: 'default', dark: 'dark' },
+    },
   } satisfies Preset.ThemeConfig,
   themes: [
     [
@@ -228,6 +235,7 @@ const config: Config = {
         searchBarShortcutHint: true,
       },
     ],
+    "@docusaurus/theme-mermaid",
   ],
   plugins: [
     [tailwindPlugin, {}],

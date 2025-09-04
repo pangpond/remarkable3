@@ -13,7 +13,7 @@ tags: [game, nintendo]
 
 ---
 
-## 🕹 NES (Famicom, 1983)
+## <img src="img/nintendo-consoles/nes.svg" alt="NES" width="24" height="16" style={{display: 'inline', marginRight: '8px'}}/> NES (Famicom, 1983)
 
 | เกม                 | รายละเอียดย่อ                | เหตุผลที่ควรเล่น                |
 | ------------------- | ---------------------------- | ------------------------------- |
@@ -30,7 +30,7 @@ tags: [game, nintendo]
 
 ---
 
-## 🎨 SNES (Super Famicom, 1990)
+## <img src="img/nintendo-consoles/snes.svg" alt="SNES" width="24" height="12" style={{display: 'inline', marginRight: '8px'}}/> SNES (Super Famicom, 1990)
 
 | เกม                                     | รายละเอียดย่อ          | เหตุผลที่ควรเล่น                |
 | --------------------------------------- | ---------------------- | ------------------------------- |
@@ -47,7 +47,7 @@ tags: [game, nintendo]
 
 ---
 
-## 🎲 Nintendo 64 (1996)
+## <img src="img/nintendo-consoles/n64.svg" alt="Nintendo 64" width="24" height="12" style={{display: 'inline', marginRight: '8px'}}/> Nintendo 64 (1996)
 
 | เกม                                  | รายละเอียดย่อ       | เหตุผลที่ควรเล่น         |
 | ------------------------------------ | ------------------- | ------------------------ |
@@ -64,7 +64,7 @@ tags: [game, nintendo]
 
 ---
 
-## 📱 Game Boy (1989)
+## <img src="img/nintendo-consoles/gameboy.svg" alt="Game Boy" width="16" height="24" style={{display: 'inline', marginRight: '8px'}}/> Game Boy (1989)
 
 | เกม                                   | รายละเอียดย่อ      | เหตุผลที่ควรเล่น          |
 | ------------------------------------- | ------------------ | ------------------------- |
@@ -81,7 +81,7 @@ tags: [game, nintendo]
 
 ---
 
-## 🎮 Game Boy Advance (2001)
+## <img src="img/nintendo-consoles/gba.svg" alt="Game Boy Advance" width="20" height="14" style={{display: 'inline', marginRight: '8px'}}/> Game Boy Advance (2001)
 
 | เกม                             | รายละเอียดย่อ        | เหตุผลที่ควรเล่น          |
 | ------------------------------- | -------------------- | ------------------------- |
@@ -98,7 +98,7 @@ tags: [game, nintendo]
 
 ---
 
-## 🎴 Nintendo DS (2004)
+## <img src="img/nintendo-consoles/ds.svg" alt="Nintendo DS" width="16" height="20" style={{display: 'inline', marginRight: '8px'}}/> Nintendo DS (2004)
 
 | เกม                                    | รายละเอียดย่อ         | เหตุผลที่ควรเล่น         |
 | -------------------------------------- | --------------------- | ------------------------ |
@@ -115,7 +115,7 @@ tags: [game, nintendo]
 
 ---
 
-## 🎳 Nintendo Wii (2006)
+## <img src="img/nintendo-consoles/wii.svg" alt="Nintendo Wii" width="10" height="24" style={{display: 'inline', marginRight: '8px'}}/> Nintendo Wii (2006)
 
 | เกม                                    | รายละเอียดย่อ      | เหตุผลที่ควรเล่น        |
 | -------------------------------------- | ------------------ | ----------------------- |
@@ -132,7 +132,7 @@ tags: [game, nintendo]
 
 ---
 
-## 👓 Nintendo 3DS (2011)
+## <img src="img/nintendo-consoles/3ds.svg" alt="Nintendo 3DS" width="16" height="20" style={{display: 'inline', marginRight: '8px'}}/> Nintendo 3DS (2011)
 
 | เกม                                        | รายละเอียดย่อ   | เหตุผลที่ควรเล่น    |
 | ------------------------------------------ | --------------- | ------------------- |
@@ -149,7 +149,7 @@ tags: [game, nintendo]
 
 ---
 
-## 📺 Wii U (2012)
+## <img src="img/nintendo-consoles/wiiu.svg" alt="Wii U" width="24" height="16" style={{display: 'inline', marginRight: '8px'}}/> Wii U (2012)
 
 | เกม                                       | รายละเอียดย่อ       | เหตุผลที่ควรเล่น |
 | ----------------------------------------- | ------------------- | ---------------- |
@@ -166,7 +166,7 @@ tags: [game, nintendo]
 
 ---
 
-## 🔥 Nintendo Switch (2017)
+## <img src="img/nintendo-consoles/switch.svg" alt="Nintendo Switch" width="24" height="16" style={{display: 'inline', marginRight: '8px'}}/> Nintendo Switch (2017)
 
 | เกม                                       | รายละเอียดย่อ    | เหตุผลที่ควรเล่น    |
 | ----------------------------------------- | ---------------- | ------------------- |
