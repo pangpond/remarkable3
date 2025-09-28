@@ -4,4 +4,10 @@ sidebar_position: 1
 
 # Introduction
 
-xxx
+```
+yarn --version
+4.10.3
+
+node --version
+v24.9.0
+```
