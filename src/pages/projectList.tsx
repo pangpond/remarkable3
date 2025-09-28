@@ -15,7 +15,6 @@ export default function Home(): ReactNode {
   return (
     <Layout title={tagline} description={description}>
       <ProjectHero title="Nextensions" />
-
       <ProjectFeature />
     </Layout>
   );

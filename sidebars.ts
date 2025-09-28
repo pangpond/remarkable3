@@ -29,7 +29,7 @@ const sidebars: SidebarsConfig = {
   ],
    */
   tutorialSidebar: [
-    // "intro",
+    "intro",
     // "hello",
     {
       type: "category",
