@@ -118,6 +118,10 @@ const config: Config = {
               label: "Nerd",
               to: "/blog",
             },
+            {
+              label: "Project",
+              to: "/project",
+            },
           ],
         },
         {
@@ -233,11 +237,7 @@ const config: Config = {
         searchResultLimits: 8,
         searchBarShortcut: true,
         searchBarShortcutHint: true,
-        searchContextByPaths: [
-          "blog",
-          "self", 
-          "child"
-        ],
+        searchContextByPaths: ["blog", "self", "child"],
       },
     ],
     "@docusaurus/theme-mermaid",

@@ -163,3 +163,7 @@ kbd {
   padding: 0 2rem 0 2.25rem;
   width: 13.5rem;
 }
+
+.breadcrumbs__link[aria-label="Home page"]{
+  padding: 0 !important;
+}

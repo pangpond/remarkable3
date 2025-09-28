@@ -7,7 +7,7 @@ live at https://pangpond.github.io/remarkable3/
 ### Prepare
 
 ```
-$ nvm use 23
+$ nvm use 24
 ```
 
 ### Installation

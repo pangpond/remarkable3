@@ -1,9 +1,11 @@
 import type { ReactNode } from "react";
+import Link from "@docusaurus/Link";
 
 type FeatureItem = {
   title: string;
   Svg: React.ComponentType<React.ComponentProps<"svg">>;
   description: ReactNode;
+  link?: string;
 };
 
 const FeatureList: FeatureItem[] = [
@@ -37,10 +39,21 @@ const FeatureList: FeatureItem[] = [
       </>
     ),
   },
+  {
+    title: "React Native Library",
+    Svg: require("@site/static/img/undraw_docusaurus_react.svg").default,
+    description: (
+      <>
+        Discover our React Native library for building cross-platform mobile
+        applications with ease and efficiency.
+      </>
+    ),
+    link: "/docs/react-native/react-native-library",
+  },
 ];
 
-function Feature({ title, Svg, description }: FeatureItem) {
-  return (
+function Feature({ title, Svg, description, link }: FeatureItem) {
+  const content = (
     <div>
       <div className="text--center">
         <Svg className="mx-auto h-52 w-52" role="img" />
@@ -51,6 +64,16 @@ function Feature({ title, Svg, description }: FeatureItem) {
       </div>
     </div>
   );
+
+  if (link) {
+    return (
+      <Link to={link} className="block hover:opacity-80 transition-opacity">
+        {content}
+      </Link>
+    );
+  }
+
+  return content;
 }
 
 export default function HomepageFeatures(): ReactNode {
