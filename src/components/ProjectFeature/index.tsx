@@ -58,12 +58,12 @@ function ProjectCard({ title, description, to, icon }: ProjectItem): ReactNode {
 
       <div className="relative z-10 flex h-full flex-col">
         {icon ? (
-          <div className="mb-6 flex h-16 w-16 items-center justify-center rounded-2xl bg-gradient-to-br from-primary/10 to-primary/20 text-primary shadow-sm transition-all duration-300 group-hover:scale-105 group-hover:shadow-md dark:from-primary/20 dark:to-primary/30">
-            <FontAwesomeIcon icon={icon} className="h-8 w-8" />
+          <div className="mb-6 flex h-20 w-20 items-center justify-center rounded-2xl bg-gradient-to-br from-primary/10 to-primary/20 text-primary shadow-sm transition-all duration-300 group-hover:scale-105 group-hover:shadow-md dark:from-primary/20 dark:to-primary/30">
+            <FontAwesomeIcon icon={icon} size="2x" />
           </div>
         ) : (
-          <div className="mb-6 flex h-16 w-16 items-center justify-center rounded-2xl bg-gradient-to-br from-slate-100 to-slate-200 text-slate-600 shadow-sm transition-all duration-300 group-hover:scale-105 group-hover:shadow-md dark:from-slate-700 dark:to-slate-600 dark:text-slate-300">
-            <FontAwesomeIcon icon={faFolderOpen} className="h-8 w-8" />
+          <div className="mb-6 flex h-20 w-20 items-center justify-center rounded-2xl bg-gradient-to-br from-slate-100 to-slate-200 text-slate-600 shadow-sm transition-all duration-300 group-hover:scale-105 group-hover:shadow-md dark:from-slate-700 dark:to-slate-600 dark:text-slate-300">
+            <FontAwesomeIcon icon={faFolderOpen} size="2xl" />
           </div>
         )}
 
