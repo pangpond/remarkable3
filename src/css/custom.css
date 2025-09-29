@@ -213,3 +213,8 @@ kbd {
 pre code {
   font-size: 120% !important;
 }
+
+article h2{
+  border-bottom: 1px solid var(--ifm-color-emphasis-200);
+  padding-bottom: 0.5rem;
+}

@@ -6,7 +6,7 @@ sidebar_position: 3
 
 Let's create a React Native library to learn the lifecycle of an open source contributor
 
-# Setup
+## Setup
 
 ```bash
 npx create-react-native-library@latest awesome-rn-lib

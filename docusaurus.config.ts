@@ -47,6 +47,39 @@ const config: Config = {
     locales: ["en"],
   },
 
+  headTags: [
+    {
+      tagName: 'link',
+      attributes: {
+        rel: 'preload',
+        href: 'https://fonts.gstatic.com/s/sarabun/v13/DtVjJx26TKEqsc8yrPKNiEOA.woff2',
+        as: 'font',
+        type: 'font/woff2',
+        crossorigin: 'anonymous',
+      },
+    },
+    {
+      tagName: 'link',
+      attributes: {
+        rel: 'preload',
+        href: 'https://fonts.gstatic.com/s/sarabun/v13/DtVkJx26TKEqsc8yrPKBhFmv1JONWlU.woff2',
+        as: 'font',
+        type: 'font/woff2',
+        crossorigin: 'anonymous',
+      },
+    },
+    {
+      tagName: 'link',
+      attributes: {
+        rel: 'preload',
+        href: 'https://fonts.gstatic.com/s/sarabun/v13/DtVkJx26TKEqsc8yrPKBxF6v1JONWlU.woff2',
+        as: 'font',
+        type: 'font/woff2',
+        crossorigin: 'anonymous',
+      },
+    },
+  ],
+
   presets: [
     [
       "classic",
