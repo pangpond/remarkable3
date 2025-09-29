@@ -62,7 +62,7 @@
   .markdown p, .markdown ul, .markdown ol{
     font-family: 'Sarabun';
     font-weight: var(--font-weight-medium) !important;
-    font-size: var(--text-xl) !important;
+    font-size: var(--text-lg) !important;
   }
   .markdown p strong{
     font-weight: var(--font-weight-extrabold) !important;
@@ -143,14 +143,18 @@ html[data-theme='dark'] {
 }
 
 /* pangpond */
-.navbar {
-  --tw-backdrop-blur: blur(8px) !important;
-  -webkit-backdrop-filter: var(--tw-backdrop-blur,) var(--tw-backdrop-brightness,) var(--tw-backdrop-contrast,) var(--tw-backdrop-grayscale,) var(--tw-backdrop-hue-rotate,) var(--tw-backdrop-invert,) var(--tw-backdrop-opacity,) var(--tw-backdrop-saturate,) var(--tw-backdrop-sepia,) !important;
-  backdrop-filter: var(--tw-backdrop-blur,) var(--tw-backdrop-brightness,) var(--tw-backdrop-contrast,) var(--tw-backdrop-grayscale,) var(--tw-backdrop-hue-rotate,) var(--tw-backdrop-invert,) var(--tw-backdrop-opacity,) var(--tw-backdrop-saturate,) var(--tw-backdrop-sepia,) !important;
+/* class="theme-layout-navbar navbar navbar--fixed-top" */
+.theme-layout-navbar.navbar.navbar--fixed-top {
+  -webkit-backdrop-filter: blur(12px) !important;
+  backdrop-filter: blur(12px) !important;
+  background-color: color-mix(in oklab, var(--color-background) 65%, transparent) !important;
+  border-bottom: 1px solid color-mix(in oklab, var(--ifm-color-primary) 10%, transparent);
+}
 
-  @supports (backdrop-filter: var(--tw)) {
-    background-color: color-mix(in oklab, var(--color-background) 60%, transparent) !important;
-  }
+.theme-layout-navbar.navbar.navbar--fixed-top.navbar-sidebar--show {
+  -webkit-backdrop-filter: none !important;
+  backdrop-filter: none !important;
+  background-color: var(--ifm-background-color) !important;
 }
 
 /* Custom CSS that should always be included */

@@ -49,33 +49,26 @@ const config: Config = {
 
   headTags: [
     {
-      tagName: 'link',
+      tagName: "link",
       attributes: {
-        rel: 'preload',
-        href: 'https://fonts.gstatic.com/s/sarabun/v13/DtVjJx26TKEqsc8yrPKNiEOA.woff2',
-        as: 'font',
-        type: 'font/woff2',
-        crossorigin: 'anonymous',
+        rel: "preconnect",
+        href: "https://fonts.googleapis.com",
       },
     },
     {
-      tagName: 'link',
+      tagName: "link",
       attributes: {
-        rel: 'preload',
-        href: 'https://fonts.gstatic.com/s/sarabun/v13/DtVkJx26TKEqsc8yrPKBhFmv1JONWlU.woff2',
-        as: 'font',
-        type: 'font/woff2',
-        crossorigin: 'anonymous',
+        rel: "preconnect",
+        href: "https://fonts.gstatic.com",
+        crossorigin: "anonymous",
       },
     },
     {
-      tagName: 'link',
+      tagName: "link",
       attributes: {
-        rel: 'preload',
-        href: 'https://fonts.gstatic.com/s/sarabun/v13/DtVkJx26TKEqsc8yrPKBxF6v1JONWlU.woff2',
-        as: 'font',
-        type: 'font/woff2',
-        crossorigin: 'anonymous',
+        rel: "stylesheet",
+        href: "https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap",
+        as: "font",
       },
     },
   ],
