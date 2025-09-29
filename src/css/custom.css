@@ -164,6 +164,16 @@ html[data-theme='dark'] {
   display: none;
 }
 
+.footer__links {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.5rem;
+}
+
+.footer__links .footer__col {
+  margin-bottom: 0;
+}
+
 .header-github-link::before {
   content: '';
   width: 24px;
