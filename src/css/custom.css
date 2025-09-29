@@ -63,7 +63,7 @@
   --ifm-link-hover-decoration: none;
   --ifm-footer-link-hover-color: none;
 
-  --ifm-code-font-size: 95%;
+  --ifm-code-font-size: 80%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 
     /* Docsearch color */
@@ -166,4 +166,8 @@ kbd {
 
 .breadcrumbs__link[aria-label="Home page"]{
   padding: 0 !important;
+}
+
+pre code {
+  font-size: 120% !important;
 }

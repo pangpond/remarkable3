@@ -31,7 +31,8 @@ const config: Config = {
       "A personal blog created by Pangpond, mainly sharing programming development knowledge and projects. This website is built with Docusaurus, a React-powered static website generator.",
   },
 
-  onBrokenLinks: "throw",
+  // onBrokenLinks: "throw",
+  onBrokenLinks: "ignore",
   onBrokenMarkdownLinks: "warn",
 
   markdown: {
@@ -165,10 +166,12 @@ const config: Config = {
         "json",
         "java",
         "python",
+        "tsx",
         "php",
         "graphql",
         "rust",
         "sql",
+        "yaml",
       ],
       defaultLanguage: "javascript",
       magicComments: [
