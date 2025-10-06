@@ -114,6 +114,7 @@ const config: Config = {
         //   position: "left",
         //   label: "Tutorial",
         // },
+        { to: "/code", label: "Code", position: "left" },
         { to: "/child", label: "Child", position: "left" },
         { to: "/self", label: "Improvement", position: "left" },
         { to: "/blog", label: "Nerd", position: "left" },
@@ -133,6 +134,10 @@ const config: Config = {
         {
           title: "Blog",
           items: [
+            {
+              label: "Code",
+              to: "/code",
+            },
             {
               label: "Child",
               to: "/child",
@@ -297,6 +302,14 @@ const config: Config = {
           type: "all",
           copyright: `Copyright © ${new Date().getFullYear()} Nextensions.`,
         },
+      },
+    ],
+    [
+      "@docusaurus/plugin-content-blog",
+      {
+        id: "code",
+        routeBasePath: "code",
+        path: "./code",
       },
     ],
   ],
