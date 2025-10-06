@@ -2,3 +2,13 @@ code:
   label: code
   permalink: /code
   description: code tag description
+
+ai:
+  label: ai
+  permalink: /ai
+  description: ai tag description
+
+git:
+  label: git
+  permalink: /git
+  description: git tag description
