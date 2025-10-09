@@ -1,7 +1,6 @@
 import type { ReactNode } from "react";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from "@theme/Layout";
-import Hero from "@site/src/components/Hero";
 import Heading from "@theme/Heading";
 
 export default function Home(): ReactNode {
@@ -12,6 +11,10 @@ export default function Home(): ReactNode {
   const { description } = customFields as { description: string };
 
   const title = "Nextensions";
+  const buttonOuterClass =
+    "relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-lg font-medium text-pretty text-gray-900 rounded-lg group bg-gradient-to-br from-purple-500 to-pink-500 group-hover:from-purple-500 group-hover:to-pink-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 shadow-lg hover:shadow-purple-500/50 dark:shadow-lg dark:hover:shadow-purple-800/80";
+  const buttonInnerClass =
+    "relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-transparent group-hover:dark:bg-transparent group-hover:text-white dark:group-hover:text-white";
 
   return (
     <Layout title={tagline} description={description}>
@@ -44,13 +47,8 @@ export default function Home(): ReactNode {
               {description}
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
-              <a
-                href="projectList"
-                className="relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-lg font-medium text-pretty text-gray-900 rounded-lg group bg-gradient-to-br from-purple-500 to-pink-500 group-hover:from-purple-500 group-hover:to-pink-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 shadow-lg hover:shadow-purple-500/50 dark:shadow-lg dark:hover:shadow-purple-800/80 "
-              >
-                <span className="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-transparent group-hover:dark:bg-transparent">
-                  Get started
-                </span>
+              <a href="projectList" className={buttonOuterClass}>
+                <span className={buttonInnerClass}>Get started</span>
               </a>
             </div>
           </div>
