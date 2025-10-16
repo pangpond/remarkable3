@@ -5,44 +5,43 @@ authors: [pangpond]
 tags: [code, git]
 ---
 
-ghq
+- gh
+- ghq
+- gq
+- tmux
 
 <!-- truncate -->
 
+#### 1. install gh, ghq with homebrew
+
 ```
+brew install gh
 brew install ghq
+
+
+// make sure gh work
+gh auth login
+gh auth status
 ```
 
-gq.sh
+#### 2. create gq.sh
 
-```ssh
-// create gq.sh
-vim gq.sh
+create `~/sandbox/scripts/gq.sh` by copy content at https://gist.github.com/pangpond/e65ddd8abc7bc5c11b0babf98dc2cb57
 
-// put content below
-gq () {
-  local url="$1"
-  local repo_path=$(echo "$url" | sed 's|https://github.com/||' | sed 's|git@github.com:||' | sed 's|\.git$||')
-  local full_path="$HOME/Code/github.com/$repo_path"
-  if [ -d "$full_path" ]
-  then
-    echo "📂 Repo exists, pulling latest changes..."
-    cd "$full_path"
-    git pull
-  else
-    ghq get -p "$url" && cd "$full_path"
-  fi
-}
+#### 3. source the script
 
-// make it can run
-sudo chmod +x gq.sh
+in your shell configuration file: Add this line to your ~/.zshrc (or ~/.bashrc if using bash):
+`source ~/Sites/Nextensions/AIPlayground/scripts/gh.sh`
 
-//alias
-ln -s ~/gq.sh /usr/local/bin/gq
+#### 4. reload your shell:
 
-```
+`source ~/.zshrc`
 
-### install tmux, yq, uvx
+#### 5. use the function:
+
+`gq https://github.com/user/repo`
+
+#### install tmux, yq, uvx
 
 install uvx
 
